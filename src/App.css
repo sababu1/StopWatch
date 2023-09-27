@@ -1,0 +1,51 @@
+:root {
+  background-color: aqua;
+}
+
+.body {
+  background-color: rgb(228, 137, 17);
+}
+
+.text {
+  font-size: 70px;
+  color: purple;
+}
+.Watch {
+  color: purple;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  width: 100vw;
+  background-image: url('public/watches.jpeg');
+  background-Size: 'cover';
+  background-position: center center;
+  z-index: -1;
+  border: 20px solid #333; /* Change the color by modifying the hex code */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+}
+.time {
+  font-size: 70px;
+}
+
+
+.Watch button {
+  font-size: 1.5em; /* Increase button text size */
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.Watch button:hover {
+  background-color: #0056b3;
+}
